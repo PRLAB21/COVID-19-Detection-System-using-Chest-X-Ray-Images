@@ -28,7 +28,7 @@ Three different Chest X-Ray images datasets were used.
 2. CoV-NonCoV-10k
 3. CoV-NonCoV-15k
 
-Find Dataset [here](https://drive.google.com/drive/folders/1_KCNt64Y4bkdMnikZ5qoCc7bxnkHxq34?usp=sharing)
+Dataset is available on [this](https://drive.google.com/drive/folders/1_KCNt64Y4bkdMnikZ5qoCc7bxnkHxq34?usp=sharing) link.
 
 ## Results
 
