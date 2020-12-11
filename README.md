@@ -111,9 +111,9 @@ Now the GUI interface will open after some time, then it will allow use to load 
 
 Prof. Asifullah Khan,
 
-Department of Computer and Information Sciences(DCIS),
+Department of Computer and Information Sciences (DCIS),
 
-Pakistan Institute of Engineering and Applied Sciences (PIEAS.
+Pakistan Institute of Engineering and Applied Sciences (PIEAS).
 
 Email: asif@pieas.edu.pk
 
