@@ -52,6 +52,12 @@ Training Plot of proposed CB-STM-RENet technique on CoV-NonCoV-15k dataset.
 
 ![Results of our Proposed System](./repo-images/results.jpg "Results of our Proposed System")
 
+## Requirements
+
+1. Matlab 2019b.
+2. Deep Learning library.
+3. NVIDIA GeForce GTX Titan X Computer.
+
 ## Author
 
 Saddam Hussain Khan
