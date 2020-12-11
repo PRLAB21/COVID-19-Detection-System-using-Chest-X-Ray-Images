@@ -8,17 +8,17 @@ In this repository, we provide the MATLAB GUI and Testing Code for the COVID-19 
 
 This work proposes a new technique based on CB CNN for automated detection of COVID-19 from chest X-Ray images. The proposed technique targets the discrimination of COVID-19 infected from both non-COVID-19 infected and Healthy individual. In this regard, a new CNN classifier based on novel split-transform-merge (STM) block is developed that systematically implements RE-based operations for the learning of COVID-19 specific patterns and termed as “STM-RENet”. The learning capacity of the proposed CNN is enhanced using Channel Boosting to improve the detection rate while maintaining high precision. The CB CNN is termed as “CB-STM-RENet”. The performance of the proposed technique is compared with several existing CNNs by implementing them from scratch as well as by adapting them using TL on X-Ray dataset for COVID-19 detection. The overall workflow is shown in Figure 1.
 
-![Proposed Framework](./repo-images/figure-01.jpg "Proposed Framework")
+![Proposed Framework](./repo-images/proposed-framework.jpg "Proposed Framework")
 
 ## Models Architecture
 
 ### Architectural details of the proposed STM-RENet
 
-![STM-RENet Architecture](./repo-images/figure-02.jpg "STM-RENet Architecture")
+![STM-RENet Architecture](./repo-images/STM-RENet-architecture.jpg "STM-RENet Architecture")
 
 ### Architectural details of the proposed CB-STM-RENet
 
-![CB-STM-RENet Architecture](./repo-images/figure-03.jpg "CB-STM-RENet Architecture")
+![CB-STM-RENet Architecture](./repo-images/CB-STM-RENet-architecture.jpg "CB-STM-RENet Architecture")
 
 ## Dataset
 
@@ -28,16 +28,49 @@ Three different Chest X-Ray images datasets were used.
 2. CoV-NonCoV-10k
 3. CoV-NonCoV-15k
 
-Dataset is available on [this](https://drive.google.com/drive/folders/1_KCNt64Y4bkdMnikZ5qoCc7bxnkHxq34?usp=sharing) link.
+Dataset wil be available on request, contact us at <hengrshkhan822@gmail.com>
+
+### Dataset Samples
+
+Panel (A), (B), and (C) show COVID-19 infected, Non-COVID-19 infected, and Healthy images, respectively.
+
+![Dataset Samples](./repo-images/dataset-samples.jpg "Dataset Samples")
+
+### Stringent CoV-NonCoV-15k Dataset
+
+Panel (A), (B), and (C) show COVID-19 infected, Non-COVID-19 infected, and Healthy images, respectively. The images are tough to classify because of having high illumination, translational, rotational, occlusion and missing informational effects.
+
+![Stringent CoV-NonCoV-15k Dataset](./repo-images/stringent-dataset.jpg "Stringent CoV-NonCoV-15k Dataset")
+
+## Training plot of Proposed CB-STM-RENet
+
+Training Plot of proposed CB-STM-RENet technique on CoV-NonCoV-15k dataset.
+
+![Training Plot of Proposed CB-STM-RENet](./repo-images/training-plot.jpg "Training Plot of Proposed CB-STM-RENet")
 
 ## Results
 
-![Results of our Proposed System](./repo-images/figure-04.jpg "Results of our Proposed System")
+![Results of our Proposed System](./repo-images/results.jpg "Results of our Proposed System")
 
-## Citation
+## Author
 
-This work is done by Saddam Hussain Khan, Anabia Sohail and Asifullah Khan. The Arxiv version of the paper can be downloaded from [here](https://arxiv.org/abs/2012.05073):
-If you find this work useful, you can refer our work as:
+Saddam Hussain Khan
+
+Email: hengrshkhan822@gmail.com
+
+## Co-Author
+
+Dr. Asifullah Khan
+
+Pakistan Institute of Engineering & Applied Sciences, Islamabad
+
+## How to cite / More information
+
+Khan, Saddam Hussain, Sohail, Anabia, & Khan, Asifullah. (2020).
+
+COVID-19 Detection in Chest X-Ray Images using a New Channel Boosted CNN.
+
+arXiv e-print: [https://arxiv.org/abs/2012.05073](https://arxiv.org/abs/2012.05073)
 
 ```Bibtex formatted citation
 @misc{khan2020covid19,
