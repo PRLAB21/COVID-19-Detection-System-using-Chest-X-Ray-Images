@@ -20,9 +20,9 @@ if isfile(model_path)
         fprintf("predicted_labels: %f\n", predicted_labels);
         label = categorical(predicted_labels);
         if (label == "COVID-19")
-            fprintf(' \n Danger "COVID-Infected" \n')
+            fprintf(' \n COVID-19 Infected \n')
         else
-            fprintf(' \n Congrats "Healthy" \n')
+            fprintf(' \n Non-Covid-19 Infected \n')
         end
     else
         fprintf("Invalid Image selected. Valid image is either 304x304 rgb or 156x156 grayscale\n");
