@@ -70,7 +70,7 @@ Khan, Saddam Hussain, Sohail, Anabia, & Khan, Asifullah. (2020).
 
 COVID-19 Detection in Chest X-Ray Images using a New Channel Boosted CNN.
 
-arXiv e-print: [https://arxiv.org/abs/2012.05073](https://arxiv.org/abs/2012.05073)
+Preprint arXiv: [https://arxiv.org/abs/2012.05073](https://arxiv.org/abs/2012.05073)
 
 ```Bibtex formatted citation
 @misc{khan2020covid19,
