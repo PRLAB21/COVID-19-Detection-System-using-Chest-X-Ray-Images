@@ -20,6 +20,8 @@ This work proposes a new technique based on CB CNN for automated detection of CO
 
 ![CB-STM-RENet Architecture](./repo-images/CB-STM-RENet-architecture.jpg "CB-STM-RENet Architecture")
 
+**Trained Model is available at [this](https://drive.google.com/drive/folders/14mjP2ZYgAE_eQUyA-9-kPMd49sb2Yoe7?usp=sharing) link.**
+
 ## Dataset
 
 Three different Chest X-Ray images datasets were used.
@@ -28,7 +30,7 @@ Three different Chest X-Ray images datasets were used.
 2. CoV-NonCoV-10k
 3. CoV-NonCoV-15k
 
-Dataset wil be available on request, contact us at <hengrshkhan822@gmail.com>
+**Dataset wil be available on request, contact us at <hengrshkhan822@gmail.com>**
 
 ### Dataset Samples
 
@@ -57,6 +59,53 @@ Training Plot of proposed CB-STM-RENet technique on CoV-NonCoV-15k dataset.
 1. Matlab 2019b.
 2. Deep Learning library.
 3. NVIDIA GeForce GTX Titan X Computer.
+
+## Setup
+
+1. Clone this repo.
+
+```git bash
+git install https://github.com/PRLAB21/COVID-19-Detection-System-using-Chest-X-Ray-Images.git
+```
+
+2. Change directory to cloned folder.
+
+```cmd
+cd COVID-19-Detection-System-using-Chest-X-Ray-Images-master
+```
+
+3. Download model and place it in following structure.
+
+```text
+COVID-19-Detection-System-using-Chest-X-Ray-Images-master
+|__proposed-CB-STM-RENet-model
+   |__Proposed_CB_STM_RENet.mat
+```
+
+4. Testing images are downloaded along with this repo and are present inside COVID-X-ray-test-images directory.
+
+5. Run code below mentioned methods.
+
+## Inference Code
+
+1. Open MATLAB.
+2. Set MATLAB folder location same as this repos folder.
+3. Now add each folder to MATLAB path from Current Folder panel by right clicking on each folder and selecting Add to Path > Selected Folder and Subfolders.
+4. Now you can run either test models individually or run MATLAB GUI App as described below.
+
+### Directory: classification-test-code
+
+-   **test_code_image.m**: Use this file for testing classification model on folder of images at once.
+
+### Directory: MATLAB-GUI-app
+
+-   Inside this directory there is **gui_classification.mlapp** file. In order to use MATLAB-GUI-app type following at command window.
+
+```MATLAB
+>> gui_classification
+```
+
+Now the GUI interface will open after some time, then it will allow use to load image, and classify it as COVID-19 or Non-COVID-19.
 
 ## Co-Author
 

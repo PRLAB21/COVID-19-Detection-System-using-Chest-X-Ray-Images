@@ -1,4 +1,3 @@
-code/
-dataset/
-MATLAB-GUI-app/
-trained-models/
+COVID-X-ray-test-images/*.py
+COVID-X-ray-test-images/removed-*/
+*.mat
