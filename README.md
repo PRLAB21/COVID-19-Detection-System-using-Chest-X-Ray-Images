@@ -58,15 +58,11 @@ Training Plot of proposed CB-STM-RENet technique on CoV-NonCoV-15k dataset.
 2. Deep Learning library.
 3. NVIDIA GeForce GTX Titan X Computer.
 
-## Author
-
-Saddam Hussain Khan
-
-Email: hengrshkhan822@gmail.com
-
 ## Co-Author
 
-Dr. Asifullah Khan
+Dr. Asifullah Khan (Principle Scientist)
+
+Email: khan.asifullah@gmail.com
 
 Pakistan Institute of Engineering & Applied Sciences, Islamabad
 
