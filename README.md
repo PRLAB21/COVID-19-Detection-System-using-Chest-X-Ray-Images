@@ -60,11 +60,15 @@ Training Plot of proposed CB-STM-RENet technique on CoV-NonCoV-15k dataset.
 
 ## Co-Author
 
-Dr. Asifullah Khan (Principle Scientist)
+Prof. Asifullah Khan,
 
-Email: khan.asifullah@gmail.com
+Department of Computer and Information Sciences(DCIS),
 
-Pakistan Institute of Engineering & Applied Sciences, Islamabad
+Pakistan Institute of Engineering and Applied Sciences (PIEAS.
+
+Email: asif@pieas.edu.pk
+
+faculty.pieas.edu.pk/asifullah/
 
 ## How to cite / More information
 
