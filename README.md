@@ -30,7 +30,7 @@ Three different Chest X-Ray images datasets were used.
 2. CoV-NonCoV-10k
 3. CoV-NonCoV-15k
 
-**Dataset wil be available on request, contact us at <hengrshkhan822@gmail.com>**
+**Dataset wil be available on request, contact at <hengrshkhan822@gmail.com>**
 
 ### Dataset Samples
 
