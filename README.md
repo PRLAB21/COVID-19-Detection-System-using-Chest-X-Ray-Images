@@ -122,7 +122,7 @@ faculty.pieas.edu.pk/asifullah/
 ## How to cite / More information
 
 Khan, Saddam Hussain, Anabia Sohail, & Asifullah Khan. "COVID-19 Detection in Chest X-Ray Images using a New Channel Boosted CNN."
-arXiv preprint: [2012.05073](https://arxiv.org/abs/2012.05073)
+arXiv preprint: [2012.05073](https://arxiv.org/abs/2012.05073) (2020).
 
 ```Bibtex formatted citation
 @misc{khan2020covid19,
